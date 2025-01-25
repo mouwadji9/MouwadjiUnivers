@@ -1,14 +1,14 @@
-import React, { useState } from 'react';
-import { ContentType } from './types';
-import { Header } from './components/Header';
-import { Sidebar } from './components/Sidebar';
-import { Books } from './components/Books';
-import { Poems } from './components/Poems';
-import { Quotes } from './components/Quotes';
+import React, { useState } from "react";
+import { ContentType } from "./types";
+import { Header } from "./components/Header";
+import { Sidebar } from "./components/Sidebar";
+import { Books } from "./components/Books";
+import { Poems } from "./components/Poems";
+import { Quotes } from "./components/Quotes";
 
 function App() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
-  const [selectedType, setSelectedType] = useState<ContentType>('books');
+  const [selectedType, setSelectedType] = useState<ContentType>("books");
   const [selectedItemId, setSelectedItemId] = useState<number | null>(null);
   const [isNavOpen, setIsNavOpen] = useState(false);
 
@@ -23,11 +23,11 @@ function App() {
 
   const renderContent = () => {
     switch (selectedType) {
-      case 'quotes':
+      case "quotes":
         return <Quotes />;
-      case 'books':
+      case "books":
         return <Books selectedItemId={selectedItemId} />;
-      case 'poems':
+      case "poems":
         return <Poems selectedItemId={selectedItemId} />;
       default:
         return null;
@@ -35,9 +35,12 @@ function App() {
   };
 
   return (
-    <div 
+    <div
       className="min-h-screen bg-cover bg-center bg-fixed"
-      style={{ backgroundImage: 'url(https://i.imgur.com/cHvbk5i_d.jpeg?maxwidth=520&shape=thumb&fidelity=high)' }}
+      style={{
+        backgroundImage:
+          "url(https://i.imgur.com/cHvbk5i_d.jpeg?maxwidth=520&shape=thumb&fidelity=high)",
+      }}
     >
       <Header
         selectedType={selectedType}
@@ -47,7 +50,7 @@ function App() {
       />
 
       <div className="flex min-h-[calc(100vh-64px)]">
-        {(selectedType === 'books' || selectedType === 'poems') && (
+        {(selectedType === "books" || selectedType === "poems") && (
           <Sidebar
             selectedType={selectedType}
             selectedItemId={selectedItemId}
@@ -58,10 +61,12 @@ function App() {
         )}
 
         <main className="flex-1 p-6">
-          <div className="max-w-7xl mx-auto">
+          <div className="max-w-7xl mx-auto ">
             {renderContent() || (
               <div className="text-center bg-white bg-opacity-90 p-8 rounded-lg shadow-md">
-                <p className="text-black">Sélectionnez un élément pour voir son contenu</p>
+                <p className="text-black">
+                  Sélectionnez un élément pour voir son contenu
+                </p>
               </div>
             )}
           </div>
