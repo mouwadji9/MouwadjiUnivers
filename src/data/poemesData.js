@@ -208,7 +208,7 @@ const poemes = [
   },
   {
     id: 6,
-    titre: "Avoir",
+    titre: "A quand",
     extrait: `Te plains-tu des gens qui s’en foutent de toi en te laissant seul avec tes problèmes?...`,
     contenu: `Te plains-tu des gens qui s’en foutent de toi en te laissant seul avec tes problèmes?  
   Penses-tu vraiment que les gens ne t’aiment pas à cause de tes problèmes ? Les détestes-tu quand ils ne te donnent pas l’attention que tu souhaites pour te soulager ?  
@@ -290,6 +290,120 @@ const poemes = [
     Sans hesitation car Les consequences sont desatreuse`,
 
     analyse: `Ce poème met en avant l'importance de l'esprit critique dans l'islam, soulignant qu'il ne suffit pas de se dire musulman, mais qu'il faut l'incarner dans les actions et la pensée. L'auteur appelle à une remise en question des comportements et des croyances, soulignant que l'adhésion aux principes fondamentaux de la foi doit se refléter dans les actions et les choix quotidiens.`,
+  },
+  {
+    id: 8,
+    titre: "Musulmans nous sommes",
+    extrait: `Musulmans nous sommes, nous n’avons pour toit que là où se trouve Dieu...`,
+    contenu: `Musulmans nous sommes, 
+  -Nous n’avons pour toit que là où se trouve Dieu, et Dieu se trouve dans nos cœurs. 
+  
+  (Quiconque veut nous priver de notre toit, amenez-nous là où Dieu n’existe pas.) 
+  -Nous ne respirons et ne disons que la vérité, et seule la parole de Dieu et de ses alliés est vérité. 
+  
+  (*La vérité dite par une personne non véridique n’est point vérité.) 
+  -Nos yeux sont rivés sur une seule cible, celle de l’obtention du salut de notre Seigneur, des prophètes et des alliés de Dieu. 
+  -Nos pieds, nos mains et tous nos sens sont voués à nous aider à accomplir notre objectif. 
+  
+  (On ne peut être retardés par la stupidité ou les détails, donc un tri est nécessaire.) 
+  -L’épée que nous avons n’est que pour la justice, et ce n’est rien d'autre que la charia. 
+  
+  (Personne n’est au-dessus de ce dernier.) 
+  -Notre guide et patrimoine ne sont que le Coran et les hadiths du prophète. 
+  
+  (Essayer d’attaquer ces derniers est signe de déclarations de guerre.) 
+  -Nos références ne sont que les prophètes et les alliés de Dieu. 
+  
+  (Tout autre comportement qui n'est pas celui de ces grands hommes n’est point musulman.) 
+  -Nous sommes ceux qui apaisent le cœur des troublés, mais sommes aussi ceux qui font trembler le cœur des tyrans et des gourmands. 
+  -Le mensonge, la trahison, la gourmandise et le désir de pouvoir ne se trouvent pas dans notre sang (ceux dont le sang se compose de l’un d'eux ne sont point musulmans).`,
+    date: "15-05-2024",
+    auteur: "mouwadji",
+    analyse: `Un poème qui exprime la foi et les valeurs fondamentales des musulmans, mettant l'accent sur la justice, la vérité et la dévotion à Dieu. Il souligne également les principes de la charia et l'importance du Coran et des hadiths comme guides.`,
+  },
+  {
+    id: 9,
+    titre: "Messages à Mouhamed",
+    extrait: `Ya Mouhamed, sache qu’après l’hiver vient l’automne suivi de l’été...`,
+    contenu: `Ya Mouhamed, sache qu’après l’hiver vient l’automne suivi de l’été. 
+  Ya Mouhamed, la pluie s’arrêtera tôt ou tard, sache qu’elle n’est que temporaire. 
+  Ya Mouhamed, sache qu’importe la dureté de la nuit, le jour viendra. 
+  
+  Ya Mouhamed, rappelle-toi des prophètes qui ont enduré toutes formes d’injustices pour leur foi. 
+  Ya Mouhamed, pense aux amis de Dieu qui ont souffert pour défendre la bonté et la justice. 
+  Ya Mouhamed, souviens-toi des révolutionnaires qui ont sacrifié leur vie pour l'avenir et la liberté de leur pays. 
+  
+  Ya Mouhamed, Il ne t’a ni laissé ni abandonné, sache-le. 
+  Ya Mouhamed, le soldat dont l’entraînement est dur a plus de chances de survivre en temps de guerre. 
+  Ya Mouhamed, ils étaient étudiants avant de devenir enseignants ou fonctionnaires. 
+  
+  Ya Mouhamed, c’est lui qui a sauvé les prophètes et leurs alliés. 
+  Ya Mouhamed, c’est lui qui exauce les vœux de toutes personnes. 
+  Ya Mouhamed, sache qu’il ne fait pas ce que tu veux, il fait ce qui est mieux pour toi. 
+  
+  Ya Mouhamed, le temps venu, tu sauras que la pluie était là pour donner vie à la terre. 
+  Ya Mouhamed, sache que de ces dernières naîtront des plantes qui à leur tour feront sortir des fruits. 
+  Ya Mouhamed, ces fruits mûriront et donneront espoir à l’humanité présente et future. 
+  
+  Ya Mouhamed, il n’y a pas de hasard, car sache que toute chose a une raison. 
+  Ya Mouhamed, n’abandonne jamais car la mort est meilleure pour nous que l’abandon. 
+  Ya Mouhamed, aie toujours confiance, aie toujours foi, aie toujours courage.`,
+    date: "04-07-2024",
+    auteur: "mouwadji",
+    analyse: `Un message d'espoir et de réconfort adressé à Mouhamed, rappelant que les épreuves sont temporaires et que la persévérance et la foi mènent à des jours meilleurs. Le poème évoque également les sacrifices des prophètes et des révolutionnaires pour inspirer courage et détermination.`,
+  },
+  {
+    id: 10,
+    titre: "Te plain-tu",
+    extrait: `Te plains-tu des gens qui s’en foutent de toi en te laissant seul avec tes problèmes ?...`,
+    contenu: `Te plains-tu des gens qui s’en foutent de toi en te laissant seul avec tes problèmes ? 
+  
+  Penses-tu vraiment que les gens ne t’aiment pas à cause de tes problèmes ? Les détestes-tu quand ils ne te donnent pas l’attention que tu souhaites pour te soulager ? 
+  Sans doute te crois-tu le centre de l’attention de nos vies.  
+  Sache que tu n’es pas la seule personne à avoir des problèmes ;  
+  en réalité, nous en avons même plus que toi. 
+  
+  Les gens ont souvent honte de demander de l’aide ou d’exposer leurs faiblesses.  
+  Ils traversent des difficultés au point que des actions aussi simples que manger, boire ou dormir peuvent devenir des défis quotidiens.  
+  Cependant, ils préfèrent montrer qu’ils sont plus riches et heureux que tout le monde, plutôt que de susciter la pitié. 
+  
+  Alors, qu’as-tu fait pour eux à tel point que tu en viens à les haïr pour ton propre intérêt ?  
+  N’as-tu pas honte de leur exposer tes problèmes en espérant qu’ils les résolvent à ta place ?  
+  N’as-tu pas le courage d’affronter ta réalité et tes problèmes seul ? 
+  
+  Reprends-toi et comprends que tu n’es personne pour dicter le fonctionnement des autres.  
+  C’est l’égoïsme qui te fait divaguer dans l’air. 
+  
+  O reprends-toi ! Seul tu es né, seul tu mourras.  
+  Alors vis ta vie le plus pleinement possible, ou tu vivras dans la trahison et la déception toute ta vie. 
+  
+  Reprends-toi !`,
+    date: "13-07-2024",
+    auteur: "mouwadji",
+    analyse: `Un poème qui interpelle le lecteur sur l'égoïsme et l'attente excessive des autres. Il souligne l'importance de prendre en charge ses propres problèmes et de ne pas compter sur les autres pour les résoudre. Le texte encourage à la responsabilité personnelle et à la maturité émotionnelle.`,
+  },
+  {
+    id: 11,
+    titre: "Frustration face à l'abus",
+    extrait: `Oh, que devons-nous faire de vous ? Sachez que notre gentillesse et bienveillance ont des limites...`,
+    contenu: `Oh, que devons-nous faire de vous ? 
+  Sachez que notre gentillesse et bienveillance ont des limites. 
+  Alors que lorsque la vérité sort de notre bouche, on nous appelle égoïstes et injustes. 
+  
+  Oh, vous les abusifs, laissez-moi savoir ce que vous voulez, 
+  car on vous tend la main et vous prenez tout le bras. 
+  Est-ce là du respect ou de la reconnaissance ? 
+  
+  Sachez que vous me poussez à montrer un visage strict et direct. 
+  Vous me poussez à vous remettre à votre place, sans filtre dans mes mots. 
+  Vous me poussez à créer une barrière qui ne pourra plus être franchie. 
+  
+  Ainsi, j'entendrai toute forme de noms insultants pour avoir fait ce qu'il fallait, 
+  toute forme de calomnie pour ne pas avoir cédé à leur égoïsme et manque de considération. 
+  Ah, ne me poussez pas à bout, car la douceur dont j'ai fait preuve peut se transformer en une implacable rigueur.`,
+    date: "05-10-2024",
+    auteur: "mouwadji",
+    analyse: `Un poème qui exprime la frustration face à l'abus et à l'ingratitude. Il met en lumière les limites de la gentillesse et la nécessité de se défendre contre ceux qui profitent de la générosité des autres. Le texte souligne également la transformation de la douceur en rigueur face à l'injustice.`,
   },
 ];
 
